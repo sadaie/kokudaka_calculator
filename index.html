@@ -65,10 +65,10 @@
             <div class="uk-width-1-1@s">
                 <label class="uk-form-label" for="form-stacked-text">
                     BRAND NEW PERFORM@NCE!!!の姫ランキング順位
-                    <span uk-icon="icon: question; ratio: 0.8" uk-tooltip="title: ミリシタのナビ > プロフィール > イベント実績 > BRAND NEW PERFORM@NCE!!!を選択すると画面にアイドル別実績として表示されます"></span>
+                    <span uk-icon="icon: question; ratio: 0.8" uk-tooltip="title: ミリシタのナビ > プロフィール > イベント実績 > BRAND NEW PERFORM@NCE!!!を選択すると画面にアイドル別実績として表示されます。BNP未参加の方は0を入力してください"></span>
                 </label>
                 <div class="uk-form-controls">
-                    <input id="bnp-rank" class="uk-input" placeholder="例: 1000" name="post_id" type="text">
+                    <input id="bnp-rank" class="uk-input" placeholder="例: 1000 もしくは 0" name="post_id" type="text">
                 </div>
             </div>
         </form>
@@ -85,7 +85,7 @@
         <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical noised-background">
             <h2 id="result-title" class="uk-modal-title"></h2>
             <p id="result-paragraph">ほ…なにかがおかしいのです…</p>
-            <p class="uk-text-right">
+            <p id="buttons" class="uk-text-right">
                 <button id="close-button" class="uk-button uk-button-default uk-modal-close" type="button">閉じる</button>
             </p>
         </div>
